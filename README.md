@@ -2,9 +2,11 @@
 A simple script to scan C files for vulnerable functions
 
 ------------------
+## Requirements
+This script requires Python3 and the `argparse` module. It has been tested on Python 3.8.10.
 
-## Installation
-Download the zip file and extract it to a directory of your choice. Then run the `cscanner` file.
+## Configuration
+Download the zip file and extract it to a directory of your choice. Then run the `cscanner.py` file using Python3.
 
 ## Usage
 `cscanner.py [-h] [-nh] path`
